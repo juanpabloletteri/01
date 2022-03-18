@@ -10,6 +10,10 @@ export class PreparacionPage implements OnInit {
 
   constructor() { }
 
+option={
+  autoplay:true
+}
+
   ngOnInit() {
   }
 
