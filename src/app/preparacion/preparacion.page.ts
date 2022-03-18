@@ -10,9 +10,13 @@ export class PreparacionPage implements OnInit {
 
   constructor() { }
 
-option={
-  autoplay:true
-}
+  option = {
+    slidesPerView: 1.5,
+    centeredSlides: true,
+    loop: true,
+    spaceBetween: 10,
+    autoplay:true,
+  }
 
   ngOnInit() {
   }
